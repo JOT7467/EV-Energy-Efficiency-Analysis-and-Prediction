@@ -2,13 +2,16 @@
 EV Energy Efficiency Analysis and Prediction
 
 EV Energy Efficiency Analysis and Prediction
-Project Overview
+
+1, Project Overview
 
 This project analyzes electric vehicle (EV) specifications to understand the factors that influence vehicle energy efficiency. Using data from the Government of Canada EV database, the project applies data science techniques including data cleaning, exploratory data analysis, machine learning modeling, and AI-assisted interpretation to identify patterns in EV performance and develop predictive models for energy efficiency.
 
 Energy efficiency is measured using the metric kilometers per kilowatt-hour (km/kWh), which represents how far an electric vehicle can travel per unit of electricity.
 
-Dataset
+
+
+2. Dataset
 
 Source: Government of Canada Electric Vehicle Database
 
@@ -32,7 +35,8 @@ Energy consumption (kWh per 100 km)
 
 A new variable, Energy Efficiency (km/kWh), was created during the analysis.
 
-Project Workflow
+
+3. Project Workflow
 
 Data Cleaning and Preparation
 
@@ -48,7 +52,8 @@ Feature Importance Analysis
 
 AI-Assisted Interpretation
 
-Machine Learning Models
+
+4. Machine Learning Models
 
 Two regression models were used to predict EV energy efficiency:
 
@@ -63,7 +68,8 @@ Random Forest	0.305	0.88
 
 The Random Forest model significantly outperformed the Linear Regression model, demonstrating strong predictive performance.
 
-Key Findings
+
+5. Key Findings
 
 Motor power is the most important predictor of EV energy efficiency.
 
@@ -73,7 +79,8 @@ Vehicle range and battery characteristics strongly influence efficiency.
 
 EV efficiency has improved steadily across model years due to technological advances.
 
-Tools and Technologies
+
+6. Tools and Technologies
 
 Python
 
@@ -89,7 +96,8 @@ Scikit-learn
 
 Generative AI tools for analytical interpretation
 
-Author
+
+7.Author
 
 Joshua Oscar Tetteh
 Master of Applied Economics
